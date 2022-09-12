@@ -10,3 +10,21 @@
 #logo {
   color: white !important;
 }
+
+.jumbotron {
+  background-image: asset-url('boxing_image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
